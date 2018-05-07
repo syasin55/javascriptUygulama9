@@ -29,11 +29,24 @@
         var sayac = 0;
                     
                     sayi=Math.round(Math.random()*100);
-                       console.log(sayi);
-                  do{
-                      tahmin=prompt("tahmin sayınızı giriniz?: ");
-          
-                          if (tahmin<sayi)
+     console.log(sayi); 
+      do{
+       sayac++;
+      tahmin = Number(prompt("Sayı tahminininzi giriniz ? "));
+      console.log(tahmin);
+          alert("Oyundan çıktınız");
+          break;
+           if (tahmin<sayi)
+        {
+            document.write("Daha büyük bir sayı giriniz.<br>"); 
+           
+        else if (tahmin>sayi)
+        {
+            document.write("Daha küçük bir sayı giriniz.<br>"); 
+        }
+        if (tahmin===sayi)
+        {
+                              
 
               
               
